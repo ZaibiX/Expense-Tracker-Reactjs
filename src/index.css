@@ -1,0 +1,29 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(243, 240, 240);
+  /* margin-left: 15vw;
+  margin-right: 15vw; */
+  padding-bottom: 50px;
+  
+}
+.income-and-expense{
+background-color: rgb(250, 248, 248);
+width:400px;
+height: 100px;
+}
+/* @media(max-width:480px)
+{
+  .income-and-expense{
+    width:100%;
+  }
+} */
+
+.vertical-line {
+  width: 1px; /* Thickness of the line */
+  height: 100px; /* Height of the line */
+  background-color: #000; /* Color of the line */
+  margin: 20px 0; /* Optional: Adds some space around the line */
+}
