@@ -1,17 +1,30 @@
-# React + Vite
+# Expense Tracker App 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, lightweight expense tracking application built with **React** and **CSS**. This app helps users monitor their spending by adding transactions and calculating their current balance.
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Add Transactions:** Log your income or expenses with a description and amount.
+* **Live Balance:** Real-time calculation of total balance, income, and expenses.
+* **History List:** Keep track of your recent transactions.
+* **Responsive Design:** Works on both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+* **React:** UI library for component-based architecture.
+* **CSS3:** Custom styling (no external UI frameworks).
+* **LocalStorage:** (Optional: include this if you save data on refresh)
+## 🛠️ Installation & Setup
 
-## React Compiler
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ZaibiX/Expense-Tracker-Reactjs.git](https://github.com/ZaibiX/Expense-Tracker-Reactjs.git)
+2. **Navigate to the project folder:**
+   ```bash
+   cd expense-tracker
+3. **Install dependencies:**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    ```bash
+    npm install
+4. **Start the development server:**
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Expense-Tracker-Reactjs
+    ```bash
+    npm run dev
